@@ -1,0 +1,251 @@
+body{
+    margin:0px;
+}
+
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    width:70%;
+}
+
+header{
+    background-color: #333333;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+.fa-flask{
+    color: #ff6666;
+}
+
+.fa-clock,.fa-camera,.fa-comment-alt{
+    color: white;
+}
+
+
+#imageune img{
+    width: 100%;
+    height: auto;
+}
+
+#imagedeux{
+    display: flex;
+    justify-content: center;
+}
+
+#rose{
+    background-color: #ff6666;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#rose #imagedeux img{
+    border-radius: 106px;
+    border-color: #ff999a;
+    border-style: solid;
+    border-width: 7px;
+}
+
+#rose p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color:#a04d4d;
+    text-align: center;
+}
+
+#rose #fin{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color:#a04d4d;
+    text-align: center;
+}
+
+#rose > ul > li:nth-child(2), #rose > ul > li:nth-child(3) {
+    background-color: #ae302f87;
+}
+
+
+#rose ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    width: 4%;
+    margin: auto;
+}
+
+#rose ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 14px;
+    background-color: brown;
+}
+
+
+#gris{
+    background-color:#333333;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#gris p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color:#b7b3b3
+        ;
+    text-align: center;
+}
+
+#gris ul {
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    margin: auto;
+    padding-left: 0px;
+}
+
+#gris ul li{
+    width: 30px;
+    height: 30px;
+}
+
+.fa-twitter, .fa-rss, .fa-facebook-f, .fa-tree, .fa-google-plus-g, .fa-dribbble, .fa-pinterest-p, .fa-instagram{
+    color: white;
+    font-size: x-large;
+    line-height: 30px !important;
+}
+
+/*partie twitter*/
+#twitter{
+    background-color: #07a8e6;
+    text-align: center;
+
+
+}
+
+
+/*fin de partie twitter*/
+
+/*partie rss*/
+#rss{
+    background-color: darkorange;
+    text-align: center;
+}
+/* fin partie rss*/
+
+/*partie facebook*/
+#facebook{
+    background-color: darkblue;
+    text-align: center;   
+}
+/*fin partie facebook*/
+
+/*partie tree*/
+#tree{
+    background-color: green;
+    text-align: center;  
+}
+/*fin partie tree*/
+
+/*partie google*/
+#google{
+    background-color: red;
+    text-align: center;  
+}
+/*fin partie google*/
+
+/*partie dribble*/
+#dribble{
+    background-color: deeppink;
+    text-align: center;  
+}
+/*fin partie dribble*/
+
+/*partie pinterest*/
+#pinterest{
+    background-color: indianred;
+    text-align: center;  
+}
+/*fin partie pinterest*/
+
+/*partie instagram*/
+#instagram{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    text-align: center;  
+}
+/*fin partie instagram*/
+
+#text2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color:#b7b3b3;
+    text-align: center; 
+}
+
+#by{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    color:#b7b3b3;
+    text-align: center;  
+}
+
+#hop{
+    display: flex;
+    justify-content: center;
+}
+#free{
+    background-color: #ff6666 !important;
+    border: 0px !important;
+    width: 10%;
+    font-weight: 100;
+    font-size:13px;
+
+}
+
+@media only screen and (max-width: 768px) {
+/* tablettes et ordinateurs */
+    
+   #imageune img{
+        display: none;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 375px) {
+/* mobile */
+    #rose ul{
+        width: 10%;
+    }
+    
+    #gris ul{
+        width: 100%;
+    }
+    
+    #free{
+        width:25%;
+    }
+    
+}
